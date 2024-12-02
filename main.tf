@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "infobyte"
+    workspaces {
+      name = "terraform_iaac_dev"
+    }
+  }
+
   required_providers {
     digitalocean = {
       source  = "digitalocean/digitalocean"
@@ -8,13 +15,13 @@ terraform {
 }
 
 variable "api_token" {
-  type = string
+  type        = string
   description = "value of the DigitalOcean API token"
-  sensitive = true
+  sensitive   = true
 }
 
 provider "digitalocean" {
-    token = var.api_token
+  token = var.api_token
 }
 
 resource "digitalocean_droplet" "web" {
