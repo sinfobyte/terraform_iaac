@@ -1,2 +1,2 @@
 # terraform_iac
-Terraform based Infrastructure as code
+Terraform based Infrastructure as code (Digital Ocean Droplet)
