@@ -1,2 +1,2 @@
-# terraform_iaac
-Terraform based Infrastructure as a code
+# terraform_iac
+Terraform based Infrastructure as code
