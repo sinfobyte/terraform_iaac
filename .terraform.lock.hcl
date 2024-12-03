@@ -7,6 +7,7 @@ provider "registry.terraform.io/digitalocean/digitalocean" {
   hashes = [
     "h1:GvT4REI7rSEzRbAoXZM2Gy/htphQ+eaKq/BPy/MfkqY=",
     "h1:sNh4uv8o2Y8shwmtzC2j9quM68vQFM7JMqhtoyQ3esg=",
+    "h1:wIccPAQ8HhEOg/Eo7ZLLiADITIfDRBv3ncRtnuwwkKc=",
     "zh:02e0bd7320167fed3b9ceea492ab218c2568abd619e816c14542c0d185eb969a",
     "zh:309452ac92ddfe6402613a5a7dcaf780e1b648e8737da3fef068e587eb932d88",
     "zh:32433f540e9feb9a22a015e83dc299d46f08adec3880f72bd6af89ac1032b13c",
