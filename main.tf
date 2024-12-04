@@ -24,9 +24,9 @@ provider "digitalocean" {
   token = var.api_token
 }
 
-resource "digitalocean_droplet" "web" {
+/* resource "digitalocean_droplet" "web" {
   image  = "ubuntu-20-04-x64"
   name   = "infobyte-dev"
   region = "blr1"
   size   = "s-1vcpu-1gb"
-}
+} */
